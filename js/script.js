@@ -1,7 +1,10 @@
+var dooryButton = document.querySelector('.doory-button')
+
 if (annyang) {
   // Let's define a command.
   var commands = {
     'hello': function() { alert('Hello world!'); }
+    'opend': function() { dooryButton.classList.add("circle"); dooryButton.classList.add("spin")}
   };
 
   // Add our commands to annyang
