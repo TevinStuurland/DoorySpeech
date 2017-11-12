@@ -1,4 +1,4 @@
-![Logo of door](img/door.jpg)
+[logo]: https://github.com/TevinStuurland/DoorySpeech/blob/gh-pages/img/doory.jpg "Logo Title Text 2"
 
 # DoorySpeech
 What you need for this to work
