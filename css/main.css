@@ -67,17 +67,9 @@ main h1{
     width: 6em;
     height: 6em;
     background-color: #30916A;
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
     margin: 0 auto;
 }
-
-.doory-button p{
-    text-align: center;
-    line-height: 90px;
-    font-weight: 600;
-}
-
 /*-----------------------------*\
     #Border animation
 \*-----------------------------*/
