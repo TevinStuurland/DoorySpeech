@@ -1,4 +1,4 @@
- ![logo of doory][img/doory.jpg]
+![Logo of door](img/door.jpg)
 
 # DoorySpeech
 What you need for this to work
