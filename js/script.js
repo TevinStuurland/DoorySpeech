@@ -18,6 +18,8 @@ if (annyang) {
 
   // Render KITT's interface
   SpeechKITT.vroom();
+
+  SpeechKITT.rememberStatus(120);
 }
 
 var commands = {
