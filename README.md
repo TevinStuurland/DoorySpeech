@@ -10,6 +10,6 @@ What you need for this to work
 First put the annyang and speechkitt codes to your HTML head
 * https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js
 * https://cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js
-* Link to P5.js in your root file
+* Link to P5.js in your root file, together with p5.sound and p5.dom js
 
 Once you have this you can start with coding.

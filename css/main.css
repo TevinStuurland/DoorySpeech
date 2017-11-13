@@ -62,6 +62,8 @@ main h1 {
 	color: white;
 	font-size: 5em;
 	margin: 2rem;
+	z-index: 1;
+	position: relative;
 }
 /*-----------------------------*\
 		#DOORY
@@ -88,6 +90,16 @@ main h1 {
 	transition: opacity 2s;
 	opacity: 0;
 }
+/*-----------------------------*\
+		#voicevisualization
+\*-----------------------------*/
+#myContainer{
+	position: absolute;
+	z-index: 0;
+	margin-top: -33px;
+	transition: background 0.5s;
+}
+
 /*-----------------------------*\
 		#KITT
 \*-----------------------------*/
