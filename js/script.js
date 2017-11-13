@@ -30,7 +30,7 @@ if (annyang) {
 			dooryButton.classList.remove(".spin::before", "spin", ".spin::after"); 
 			dooryButton.classList.remove("circle"); 
 
-			pulseVoice.classList.add("remove"); 
+			pulseVoice.classList.remove("open"); 
 		}, 
 
 		'help': function() { 
