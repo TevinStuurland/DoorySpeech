@@ -45,30 +45,6 @@ if (annyang) {
 }
 
 //P5 code
-/*var mic, fft;
-
-function setup() {
-  var myCanvas = createCanvas(1920, 200);
-  myCanvas.position(0, 600);
-
-  mic = new p5.AudioIn();
-  mic.start();
-  fft = new p5.FFT();
-  fft.setInput(mic);
-}
-
-function draw() {
-  background(119, 200, 167);
-
-  var spectrum = fft.analyze();
-
-  beginShape();
-  for (i = 0; i<spectrum.length; i++) {
-  	vertex(i, map(spectrum[i], 0, 255, height, 50) );
-  }
-  endShape();
-}*/
-
 var input;
 var analyzer;
 
