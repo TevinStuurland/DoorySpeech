@@ -41,7 +41,7 @@ if (annyang) {
 		}, 
 
 		'fine': function() { 
-			dooryButton.innerHTML = "close";
+			dooryButton.innerHTML = "Closed";
 			dooryButton.classList.remove("helpbutton"); 
 
 			pulseVoice.classList.remove("help"); 
