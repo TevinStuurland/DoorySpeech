@@ -19,7 +19,7 @@ First you need to setup the html page start with this
 
 [logo]: https://github.com/TevinStuurland/DoorySpeech/blob/gh-pages/img/doory.jpg "Logo Title Text 2"
 
-# DoorySpeech
+## DoorySpeech
 What you need for this to work
 1. https://github.com/TalAter/annyang a speech recognition api
 2. https://github.com/TalAter/SpeechKITT a flexible GUI for interacting with Speech Recognition
