@@ -1,18 +1,23 @@
 var dooryButton = document.querySelector('.doory .button');
 var dooryText = document.querySelector('.doory .text');
+var dooryHello = ['Hello', 'Hey'];
 
 if (annyang) {
   // Let's define a command.
   var commands = {
     'hello': function() {
-        dooryText.textContent += "Hello!"; 
+        for (var i = 0; i < dooryHello.length; i++) {
+            var helloThere = dooryHello[i];
+            console.log(helloThere); 
+        }
+        
+        dooryText.textContent += helloThere; 
         dooryText.classList.add("dissappear");
     }, 
 
     'open': function() { 
         dooryButton.classList.add("spin"); 
         dooryButton.classList.add("circle"); 
-        
     }
   };
 
