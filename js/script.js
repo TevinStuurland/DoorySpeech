@@ -6,23 +6,24 @@ if (annyang) {
 	// Let's define a command.
 	var commands = {
 		'hello': function() {
-				for (var i = 0; i < dooryHello.length; i++) {
-						var helloThere = dooryHello[i];
-						console.log(helloThere); 
-				}
+			for (var i = 0; i < dooryHello.length; i++) {
+					var helloThere = dooryHello[i];
+					console.log(helloThere); 
+			}
 
-				dooryText.textContent += helloThere; 
-				dooryText.classList.add("dissappear");
+			dooryText.textContent += helloThere; 
+			dooryText.classList.add("dissappear");
 		}, 
 
 		'open': function() { 
-				dooryButton.classList.add(".spin::before", "spin", ".spin::after"); 
-				dooryButton.classList.add("circle"); 
+			dooryButton.value = "Open";
+			dooryButton.classList.add(".spin::before", "spin", ".spin::after"); 
+			dooryButton.classList.add("circle"); 
 		}, 
 
 		'help': function() { 
-				dooryButton.classList.add("spin emergency"); 
-				dooryButton.classList.add("circle"); 
+			dooryButton.classList.add("spin emergency"); 
+			dooryButton.classList.add("circle"); 
 		}
 	};
 
