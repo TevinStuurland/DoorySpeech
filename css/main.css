@@ -110,6 +110,12 @@ main h1 {
 	animation: 5s 2000ms alternate rotating!important;
 }
 
+.help{
+	transition: border 0.5s!important;
+	border: 2px dashed rgba(255, 0, 0, 1)!important;
+	animation: 5s infinite alternate rotating!important;
+}
+
 .doory .text{
 	position: absolute;
 	font-size: 3em;

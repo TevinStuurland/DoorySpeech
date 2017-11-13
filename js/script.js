@@ -29,12 +29,14 @@ if (annyang) {
 			dooryButton.innerHTML = "Closed";
 			dooryButton.classList.remove(".spin::before", "spin", ".spin::after"); 
 			dooryButton.classList.remove("circle"); 
+
 			pulseVoice.classList.add("remove"); 
 		}, 
 
 		'help': function() { 
-			dooryButton.classList.add("spin emergency"); 
-			dooryButton.classList.add("circle"); 
+			dooryButton.innerHTML = "Helping";
+
+			pulseVoice.classList.add("help"); 
 		}
 	};
 
