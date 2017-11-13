@@ -1,6 +1,8 @@
 var dooryButton = document.querySelector('.doory .button');
 var dooryText = document.querySelector('.doory .text');
 var dooryHello = ['Hello!', 'Hey!'];
+var container = document.getElementById("myContainer");
+var pulseVoice = document.getElementById("voicePulse");
 
 if (annyang) {
 	// Let's define a command.
@@ -19,12 +21,15 @@ if (annyang) {
 			dooryButton.innerHTML = "Open";
 			dooryButton.classList.add(".spin::before", "spin", ".spin::after"); 
 			dooryButton.classList.add("circle"); 
+
+			pulseVoice.classList.add("open"); 
 		}, 
 
 		'close': function() { 
-			dooryButton.innerHTML = "Close";
+			dooryButton.innerHTML = "Closed";
 			dooryButton.classList.remove(".spin::before", "spin", ".spin::after"); 
 			dooryButton.classList.remove("circle"); 
+			pulseVoice.classList.add("remove"); 
 		}, 
 
 		'help': function() { 
@@ -69,14 +74,14 @@ function setup() {
 function draw() {
   // Get the overall volume (between 0 and 1.0)
   var volume = input.getLevel();
-
-  // If the volume > 0.1,  a rect is drawn at a random location.
-  // The louder the volume, the larger the rectangle.
+	
+  // If the volume > 0.1,  the background color changes.
+  // The louder the volume, the longer the background remains changed.
   var threshold = 0.1;
   if (volume > threshold) {
-    document.getElementById("myContainer").style.background = "#487c67";
+    container.style.background = "#487c67";
   }else{
-		document.getElementById("myContainer").style.background = "none";
+		container.style.background = "none";
 	}
 
   // Graph the overall potential volume, w/ a line at the threshold

@@ -68,6 +68,19 @@ main h1 {
 /*-----------------------------*\
 		#DOORY
 \*-----------------------------*/
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 .doory .button {
 	width: 8em;
 	height: 8em;
@@ -76,6 +89,25 @@ main h1 {
 	margin-left: 43%;
 	margin-top: 10%;
 	font-size: 2em;
+}
+
+#voicePulse{
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	width: 20em;
+	height: 20em;
+	margin-top: 8.2%;
+  margin-left: 41.2%;
+	border: 2px dashed rgba(0, 0, 0, 0.2);
+	animation: 20s infinite linear rotating;
+	transition: border 0.5s;
+}
+
+.open{
+	transition: border 0.5s;
+	border: 2px dashed rgba(255, 255, 255, 1);
+	animation: 20s 2000ms alternate rotating;
 }
 
 .doory .text{
