@@ -4,8 +4,15 @@ var dooryText = document.querySelector('.doory .text');
 if (annyang) {
   // Let's define a command.
   var commands = {
-    'hello': function() { dooryText.textContent += "Hello!"; }, 
-    'open': function() { dooryButton.classList.add("circle"); dooryButton.classList.add("spin"); }
+    'hello': function() {
+        dooryText.textContent += "Hello!"; 
+        dooryText.classList.add("dissappear");
+    }, 
+
+    'open': function() { 
+        dooryButton.classList.add("circle"); 
+        dooryButton.classList.add("spin"); 
+    }
   };
 
   // Add our commands to annyang
@@ -24,4 +31,11 @@ if (annyang) {
   SpeechKITT.vroom();
 
   SpeechKITT.rememberStatus(120);
+}
+
+function a(x) {   
+  function b(y) { 
+    return x + y; 
+  }
+  return b;       
 }

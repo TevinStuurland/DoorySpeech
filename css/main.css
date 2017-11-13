@@ -63,7 +63,9 @@ main h1 {
 	font-size: 5em;
 	margin: 2rem;
 }
-
+/*-----------------------------*\
+		#DOORY
+\*-----------------------------*/
 .doory .button {
 	width: 8em;
 	height: 8em;
@@ -72,6 +74,22 @@ main h1 {
 	margin-left: 43%;
 	margin-top: 10%;
 	font-size: 2em;
+}
+
+.doory .text{
+	position: absolute;
+	font-size: 3em;
+	margin-top: -8%;
+	margin-left: 60%;
+	opacity: 1;
+	transition: opacity 2s;
+	transition-delay: 10s;
+}
+
+.dissappear{
+	transition-delay: 10s;
+	transition: opacity 2s;
+	opacity: 0;
 }
 /*-----------------------------*\
 		#KITT
