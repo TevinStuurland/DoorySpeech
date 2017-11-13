@@ -105,9 +105,9 @@ main h1 {
 }
 
 .open{
-	transition: border 0.5s;
-	border: 2px dashed rgba(255, 255, 255, 1);
-	animation: 20s 2000ms alternate rotating;
+	transition: border 0.5s!important;
+	border: 2px dashed rgba(255, 255, 255, 1)!important;
+	animation: 5s 2000ms alternate rotating!important;
 }
 
 .doory .text{
