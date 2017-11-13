@@ -92,16 +92,29 @@ clear what people are working with here.
 The div is created for everything that is going to be manipulated
 by Doory. And the main is just a personal preference ;)
 
-## We have everything what now?
+# Setup of Javascript (we have everything what now?)
 Well now comes the hardest part, the manipulation.
 
 1. Create a new javascript file
 2. Save it and link it to the html page
-⋅⋅1. Quick reminder, you already made the link in the HTML file 
+1. Quick reminder, you already made the link in the HTML file 
 ```html 
 <script src="pathto/js/script.js"></script>
 ``` 
 3. Start creating variables
+```javascript
+var dooryButton = document.querySelector('.doory .button');
+var dooryText = document.querySelector('.doory .text');
+var dooryHello = ['Hello!', 'Hey!'];
+```
+
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
 
 
 
