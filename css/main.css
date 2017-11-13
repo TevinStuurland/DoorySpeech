@@ -91,6 +91,11 @@ main h1 {
 	font-size: 2em;
 }
 
+.helpbutton {
+	background-color: #912F2F!important;
+	color: white;
+}
+
 #voicePulse{
 	display: block;
 	border-radius: 50%;
@@ -113,7 +118,7 @@ main h1 {
 .help{
 	transition: border 0.5s!important;
 	border: 2px dashed rgba(255, 0, 0, 1)!important;
-	animation: 5s infinite alternate rotating!important;
+	animation: 2s infinite alternate rotating!important;
 }
 
 .doory .text{

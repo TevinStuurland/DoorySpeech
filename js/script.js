@@ -35,9 +35,19 @@ if (annyang) {
 
 		'help': function() { 
 			dooryButton.innerHTML = "Helping";
+			dooryButton.classList.add("helpbutton"); 
 
 			pulseVoice.classList.add("help"); 
-		}
+		}, 
+
+		'fine': function() { 
+			dooryButton.innerHTML = "close";
+			dooryButton.classList.remove("helpbutton"); 
+
+			pulseVoice.classList.remove("help"); 
+		}, 
+
+		
 	};
 
 	// Add our commands to annyang
