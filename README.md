@@ -292,7 +292,7 @@ Now you will see a visual representation of your sound
 and... there will be random rectangles added to your canvas.
 On random spots too, pretty cool huh.
 
-#Why were you telling me all this in the first place?
+# Why were you telling me all this in the first place?
 Well I just want to be able to teach people cool things, also I want 
 to show you that even though it can be hard to code sometimes the reward
 can be astonishingly good. I mean how great does it feel once you're able 
