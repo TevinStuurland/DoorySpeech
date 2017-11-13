@@ -10,8 +10,9 @@ if (annyang) {
     }, 
 
     'open': function() { 
-        dooryButton.classList.add("circle"); 
         dooryButton.classList.add("spin"); 
+        dooryButton.classList.add("circle"); 
+        
     }
   };
 
