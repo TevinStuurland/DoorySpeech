@@ -4,7 +4,7 @@ if (annyang) {
   // Let's define a command.
   var commands = {
     'hello': function() { alert('Hello world!'); }, 
-    'open': setTimeout(function() { dooryButton.classList.add("circle"); dooryButton.classList.add("spin"), 1000);}
+    'open': setTimeout(function() { dooryButton.classList.add("circle"); dooryButton.classList.add("spin");}, 1000)
   };
 
   // Add our commands to annyang
