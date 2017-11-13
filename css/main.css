@@ -52,23 +52,34 @@ table {
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-body{
-		font-family: 'Lato', sans-serif;
-		background-color: #77C8A7;
+body {
+	overflow: hidden;
+	font-family: 'Lato', sans-serif;
+	background-color: #77C8A7;
 }
 
-main h1{
-		color: white;
-		font-size: 5em;
-		margin: 2rem;
+main h1 {
+	color: white;
+	font-size: 5em;
+	margin: 2rem;
 }
 
-.doory-button{
-		width: 6em;
-		height: 6em;
-		background-color: #30916A;
-		border-radius: 100%;
-		margin: 0 auto;
+.doory .button {
+	width: 8em;
+	height: 8em;
+	background-color: #30916A;
+	border-radius: 100%;
+	margin-left: 43%;
+	margin-top: 10%;
+	font-size: 2em;
+}
+/*-----------------------------*\
+		#KITT
+\*-----------------------------*/
+#skitt-ui {
+	margin-top: 17%;
+	position: relative!important;
+	background-color: #1A7D55;
 }
 /*-----------------------------*\
 		#Border animation
@@ -77,14 +88,11 @@ button {
 	background: none;
 	border: 0;
 	box-sizing: border-box;
-	margin: 1em;
-	padding: 1em 2em;
-	box-shadow: inset 0 0 0 2px #f45e61;
+	box-shadow: inset 0 0 0 2px #1A7D55;
 	color: #000;
 	font-size: inherit;
 	font-weight: 700;
 	position: relative;
-	vertical-align: middle;
 }
 button::before, button::after {
 	box-sizing: inherit;
@@ -95,8 +103,8 @@ button::before, button::after {
 }
 
 .spin {
-	width: 6em;
-	height: 6em;
+	width: 8em;
+	height: 8em;
 	padding: 0;
 }
 .spin {
