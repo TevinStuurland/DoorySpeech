@@ -21,6 +21,12 @@ if (annyang) {
 			dooryButton.classList.add("circle"); 
 		}, 
 
+		'close': function() { 
+			dooryButton.innerHTML = "Close";
+			dooryButton.classList.remove(".spin::before", "spin", ".spin::after"); 
+			dooryButton.classList.remove("circle"); 
+		}, 
+
 		'help': function() { 
 			dooryButton.classList.add("spin emergency"); 
 			dooryButton.classList.add("circle"); 
