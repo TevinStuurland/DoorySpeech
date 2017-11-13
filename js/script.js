@@ -16,7 +16,7 @@ if (annyang) {
 		}, 
 
 		'open': function() { 
-			dooryButton.value = "Open";
+			dooryButton.innerHTML = "Open";
 			dooryButton.classList.add(".spin::before", "spin", ".spin::after"); 
 			dooryButton.classList.add("circle"); 
 		}, 
