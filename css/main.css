@@ -94,7 +94,7 @@ main h1 {
 #skitt-ui {
 	margin-top: 17%;
 	position: relative!important;
-	background-color: #1A7D55;
+	background-color: #1A7D55!important;
 }
 /*-----------------------------*\
 		#Border animation
