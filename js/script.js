@@ -36,6 +36,8 @@ if (annyang) {
 		'help': function() { 
 			dooryButton.innerHTML = "Helping";
 			dooryButton.classList.add("helpbutton"); 
+			dooryButton.classList.add(".spin::before", "spin", ".spin::after"); 
+			dooryButton.classList.add("circle"); 
 
 			pulseVoice.classList.add("help"); 
 		}, 
@@ -43,6 +45,8 @@ if (annyang) {
 		'fine': function() { 
 			dooryButton.innerHTML = "Closed";
 			dooryButton.classList.remove("helpbutton"); 
+			dooryButton.classList.remove(".spin::before", "spin", ".spin::after"); 
+			dooryButton.classList.remove("circle"); 
 
 			pulseVoice.classList.remove("help"); 
 		}, 
