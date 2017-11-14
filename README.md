@@ -1,7 +1,13 @@
 [logo]: https://github.com/TevinStuurland/DoorySpeech/blob/gh-pages/img/doory.jpg "Logo Title Text 2"
 
-# DoorySpeech
-What you need for this to work
+# Speech (page voice control)
+
+## What is this?
+This code is created so you can create your own voice-controlled webpage.
+With this code you can control different objects in your page, and if you're at a higher level of understanding Javascript. Then you can make an even more powerful application.
+
+
+## What you need for this to work
 1. https://github.com/TalAter/annyang a speech recognition api
 2. https://github.com/TalAter/SpeechKITT a flexible GUI for interacting with Speech Recognition
 3. https://p5js.org/download/ a processing javascript tool
@@ -16,8 +22,6 @@ Once you have this you can start with coding.
 
 # Setup
 First you need to setup the html page start with this
-
-[logo]: https://github.com/TevinStuurland/DoorySpeech/blob/gh-pages/img/doory.jpg "Logo Title Text 2"
 
 ## DoorySpeech
 What you need for this to work
